@@ -17,6 +17,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Bill of Materials',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: 'Overview',
+        link: '/pages/bom',
+      },
+    ]
+    },
+  {
     title: 'Layout',
     icon: 'layout-outline',
     children: [
