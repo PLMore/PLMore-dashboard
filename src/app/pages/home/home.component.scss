@@ -1,0 +1,28 @@
+.selected-workspace-wrapper {
+    height: 100%;
+    margin: auto 0;
+    .selected-workspace {
+        display: flex;
+        margin: auto;
+    }
+}
+.workspace-table {
+    display: flex;
+    margin: auto;
+}
+.selected-workspace-card{
+    background-color:  var(--text-primary-hover-color);
+    padding: 1rem;
+    color: var(--text-control-color)
+}
+.workspace-name {
+    h3 {
+        color: var(--text-control-color) !important;
+    }
+}
+.workspace-description {
+    p {
+        color: var(--text-control-color) !important;
+
+    }
+}

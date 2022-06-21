@@ -24,6 +24,14 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Overview',
         link: '/pages/bom',
       },
+      {
+        title: 'Stock',
+        link: '/pages/bom/stock',
+      },
+      {
+        title: 'Alerts',
+        link: '/pages/bom/alerts',
+      }
     ]
     },
   {
